@@ -1,4 +1,9 @@
 # Passwords
+
+Run:
+
+export-wifi-profiles.bat
+
 Requirements:
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
