@@ -1,4 +1,5 @@
 import smtplib
+from subprocess import call
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -19,8 +20,8 @@ def test():
          temp = line.rstrip('\n')
          print(temp)
          time.sleep(5)
-         fromaddr = "MY_EMAIL"
-         toaddr = "MY_EMAIL"
+         fromaddr = "MY_EMAIL@gmail.com"
+         toaddr = "MY_EMAIL@gmail.com"
 
          msg = MIMEMultipart()
 
@@ -47,7 +48,7 @@ def test():
 
          server = smtplib.SMTP('smtp.gmail.com', 587)
          server.starttls()
-         server.login(fromaddr, "MY_Password")
+         server.login(fromaddr, "My_Password")
          text = msg.as_string()
          server.sendmail(fromaddr, toaddr, text)
          server.quit()
@@ -56,5 +57,6 @@ def test():
 numberEmails = 1
 
 for _ in range(numberEmails):
+    call(['profiles.bat'], shell=False)
     test()
     open('1.txt', 'w').close()
