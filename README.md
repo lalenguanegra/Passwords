@@ -12,7 +12,11 @@ WSL needed to run myScript.sh
 
 ![Image](https://github.com/lalenguanegra/Passwords/blob/master/stylesheet_example.png)
 
+Password Stealer :
+[DEMO](www.youtube.com/watch?v=jd09CzrT0zs)
+
 Email Function:
+
 [DEMO](https://www.youtube.com/watch?v=aMuOyoN5gn8)
 
 
