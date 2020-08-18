@@ -12,4 +12,7 @@ WSL needed to run myScript.sh
 
 ![Image](https://github.com/lalenguanegra/Passwords/blob/master/stylesheet_example.png)
 
+Email Function:
+[DEMO](https://www.youtube.com/watch?v=aMuOyoN5gn8)
+
 
