@@ -14,7 +14,7 @@ WSL needed to run myScript.sh
 
 Password Stealer:
 
-[DEMO](https://www.youtube.com/watch?v=jd09CzrT0zs)
+[DEMO](https://youtu.be/IwFVdJMp5hQ)
 
 Email Function:
 
